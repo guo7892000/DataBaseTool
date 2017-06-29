@@ -1,0 +1,7 @@
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.DAC.SQLite\obj\Debug\Breezee.WorkHelper.DBTool.DAC.SQLite.csprojResolveAssemblyReference.cache
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.DAC.SQLite.dll
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.DAC.SQLite.pdb
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.DAC.SQLite\obj\Debug\Breezee.WorkHelper.DBTool.DAC.SQLite.dll
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.DAC.SQLite\obj\Debug\Breezee.WorkHelper.DBTool.DAC.SQLite.pdb
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.DBTool.DAC.SQLite.dll
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.DBTool.DAC.SQLite.pdb

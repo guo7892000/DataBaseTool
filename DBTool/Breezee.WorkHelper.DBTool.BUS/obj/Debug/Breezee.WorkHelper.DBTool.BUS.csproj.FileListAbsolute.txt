@@ -1,0 +1,7 @@
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.BUS\obj\Debug\Breezee.WorkHelper.DBTool.BUS.csprojResolveAssemblyReference.cache
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.BUS.dll
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.BUS.pdb
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.BUS\obj\Debug\Breezee.WorkHelper.DBTool.BUS.dll
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.BUS\obj\Debug\Breezee.WorkHelper.DBTool.BUS.pdb
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.DBTool.BUS.dll
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.DBTool.BUS.pdb

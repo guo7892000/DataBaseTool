@@ -1,0 +1,11 @@
+﻿<table >
+            <tr class="tabletr"><td></td><td colspan="2">表名称：${tableName}</td><td colspan="4">表编码：${tableCode}</td><td colspan="2">变更类型： ${changeType}</td></tr>
+            <tr class="tabletr"><td></td><td colspan="8">说明：${tableRemark}</td></tr>
+			<tr class="headtr">
+                 <td class="align-center">序号</td><td style="width:100pt;">列名称</td><td style="width:130pt;">列编码</td>
+                 <td style="width:60pt;">类型</td><td style="width:50pt;">长度</td><td style="width:50pt;">小数位</td><td style="width:60pt;">键</td><td style="width:60pt;">必填</td><td>默认值</td><td style="width:130pt;">备注</td><td>变更类型</td>
+            </tr>
+			$$(ColumnsHolder)
+</table>
+<br />
+<br />

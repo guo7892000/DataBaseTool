@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9CDAD45F-EA5D-4D52-8441-234D3CEE2F70}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Breezee.WorkHelper.DBTool.UI</RootNamespace>
+    <AssemblyName>Breezee.WorkHelper.DBTool.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Breezee.Framework.BaseUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Breezee.Framework.BaseUI.dll</HintPath>
+    </Reference>
+    <Reference Include="Breezee.Framework.DataAccess.Custom, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Breezee.Framework.DataAccess.Custom.dll</HintPath>
+    </Reference>
+    <Reference Include="Breezee.Framework.DataAccess.INF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Breezee.Framework.DataAccess.INF.dll</HintPath>
+    </Reference>
+    <Reference Include="Breezee.Framework.Tool, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Breezee.Framework.Tool.dll</HintPath>
+    </Reference>
+    <Reference Include="Breezee.Global.Config, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Breezee.Global.Config.dll</HintPath>
+    </Reference>
+    <Reference Include="Breezee.Global.Context, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Breezee.Global.Context.dll</HintPath>
+    </Reference>
+    <Reference Include="Breezee.Global.Entity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Breezee.Global.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Breezee.WorkHelper.DBTool.INF, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Breezee.WorkHelper.DBTool.INF.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Release\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoEntity\FrmDBAutoEntity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoEntity\FrmDBAutoEntity.Designer.cs">
+      <DependentUpon>FrmDBAutoEntity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutoEntity\FrmDBGenerateFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutoEntity\FrmDBGenerateFile.Designer.cs">
+      <DependentUpon>FrmDBGenerateFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\DataBaseCommon.cs" />
+    <Compile Include="Common\DataDictinary.cs" />
+    <Compile Include="Common\DbConfigSet.cs" />
+    <Compile Include="Common\ExcludeColumnSet.cs" />
+    <Compile Include="Common\FrmDBConfigSet_D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FrmDBConfigSet_D.Designer.cs">
+      <DependentUpon>FrmDBConfigSet_D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FrmKeyValueSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FrmKeyValueSet.Designer.cs">
+      <DependentUpon>FrmKeyValueSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\KeyValue.cs" />
+    <Compile Include="Common\UC_DbConnection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\UC_DbConnection.Designer.cs">
+      <DependentUpon>UC_DbConnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectString\FrmDBTCopyData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectString\FrmDBTCopyData.Designer.cs">
+      <DependentUpon>FrmDBTCopyData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectString\FrmDBTInList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectString\FrmDBTInList.Designer.cs">
+      <DependentUpon>FrmDBTInList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectString\FrmDBTReadDataBaseString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectString\FrmDBTReadDataBaseString.Designer.cs">
+      <DependentUpon>FrmDBTReadDataBaseString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSql\FrmDBTExcelImportData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSql\FrmDBTExcelImportData.Designer.cs">
+      <DependentUpon>FrmDBTExcelImportData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSql\FrmDBTReadDBData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSql\FrmDBTReadDBData.Designer.cs">
+      <DependentUpon>FrmDBTReadDBData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\DBToolUIHelper.cs" />
+    <Compile Include="Common\FrmDBConfigSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FrmDBConfigSet.Designer.cs">
+      <DependentUpon>FrmDBConfigSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StringBuild\FrmDirectoryFileString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StringBuild\FrmDirectoryFileString.Designer.cs">
+      <DependentUpon>FrmDirectoryFileString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableSql\FrmDBTImportExcelGenerateTableSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableSql\FrmDBTImportExcelGenerateTableSQL.Designer.cs">
+      <DependentUpon>FrmDBTImportExcelGenerateTableSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\FrmVersionInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FrmVersionInfo.designer.cs">
+      <DependentUpon>FrmVersionInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableSql\FrmDBTGetTableQuerySql.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableSql\FrmDBTGetTableQuerySql.Designer.cs">
+      <DependentUpon>FrmDBTGetTableQuerySql.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableSql\FrmDBTTableExtendProperty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableSql\FrmDBTTableExtendProperty.Designer.cs">
+      <DependentUpon>FrmDBTTableExtendProperty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\TableStructGenerator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AutoEntity\FrmDBAutoEntity.resx">
+      <DependentUpon>FrmDBAutoEntity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutoEntity\FrmDBGenerateFile.resx">
+      <DependentUpon>FrmDBGenerateFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FrmDBConfigSet_D.resx">
+      <DependentUpon>FrmDBConfigSet_D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FrmKeyValueSet.resx">
+      <DependentUpon>FrmKeyValueSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\UC_DbConnection.resx">
+      <DependentUpon>UC_DbConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectString\FrmDBTCopyData.resx">
+      <DependentUpon>FrmDBTCopyData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectString\FrmDBTInList.resx">
+      <DependentUpon>FrmDBTInList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectString\FrmDBTReadDataBaseString.resx">
+      <DependentUpon>FrmDBTReadDataBaseString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSql\FrmDBTExcelImportData.resx">
+      <DependentUpon>FrmDBTExcelImportData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataSql\FrmDBTReadDBData.resx">
+      <DependentUpon>FrmDBTReadDBData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FrmDBConfigSet.resx">
+      <DependentUpon>FrmDBConfigSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StringBuild\FrmDirectoryFileString.resx">
+      <DependentUpon>FrmDirectoryFileString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableSql\FrmDBTImportExcelGenerateTableSQL.resx">
+      <DependentUpon>FrmDBTImportExcelGenerateTableSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FrmVersionInfo.resx">
+      <DependentUpon>FrmVersionInfo.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Breezee.WorkHelper.DBTool.BUS\Breezee.WorkHelper.DBTool.BUS.csproj">
+      <Project>{7D942849-7ADD-4D61-B4C2-F86E8DA595D9}</Project>
+      <Name>Breezee.WorkHelper.DBTool.BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Breezee.WorkHelper.DBTool.Entity\Breezee.WorkHelper.DBTool.Entity.csproj">
+      <Project>{85A8D661-4887-4F51-9F93-A879E25AA0E9}</Project>
+      <Name>Breezee.WorkHelper.DBTool.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\DBConfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Oracle生成SQL排除字段清单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Oracle表列默认值清单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\SQL生成SQL排除字段清单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\SQL表列默认值清单.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Help\表结构设计.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlScript\1.001_修改表列说明.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlScript\Stady\Mariadb常用SQL.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlScript\Stady\Oracle常用SQL.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlScript\Stady\PostgreSQL常用SQL.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlScript\Stady\SQLite常用SQL.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlScript\Stady\SqlServer常用SQL.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlScript\Stady\综合SQL比较学习.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="TableSql\FrmDBTGetTableQuerySql.resx">
+      <DependentUpon>FrmDBTGetTableQuerySql.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableSql\FrmDBTTableExtendProperty.resx">
+      <DependentUpon>FrmDBTTableExtendProperty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Template\Columns.txt" />
+    <EmbeddedResource Include="Template\Html.txt" />
+    <EmbeddedResource Include="Template\Table.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataModel\DataSql\模板_生成数据.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataModel\Entity\模板_生成IBD文件.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataModel\TableStruct\模板_表列说明变更.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DataModel\TableStruct\模板_表列变更.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

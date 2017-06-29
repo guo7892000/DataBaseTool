@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+	<Item>
+    <ID></ID>
+    <DbConfigName></DbConfigName>
+		<DbType></DbType>
+    <TnsName></TnsName>
+		<ServerIP></ServerIP>
+		<DbName></DbName>
+    <UserName></UserName>
+    <Password></Password>
+	</Item>
+</Items>

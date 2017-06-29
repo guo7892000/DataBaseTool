@@ -1,0 +1,27 @@
+﻿<Window x:Class="Breezee.WorkHelper.WPF.StartUp.WMenuManage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Breezee.WorkHelper.WPF.StartUp"
+        mc:Ignorable="d"
+        Title="WMenuManage" Height="300" Width="300" Icon="WorkTool.ico">
+    <Grid>
+        <DockPanel Margin="0,0,0,248">
+            <ToolBar x:Name="toolBar" DockPanel.Dock="Top" Height="30" Width="Auto">
+                <Button Name="btSave" Content="保存" Height="Auto"></Button>
+            </ToolBar>
+            <TreeView Name="tvLeftMenu" DockPanel.Dock="Left" Width="100" Height="Auto" Margin="0,0,0,-254"></TreeView>
+
+            <GroupBox Margin="0,0,0,-254" Width="196">
+                <DockPanel>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            
+                        </Grid.RowDefinitions>
+                    </Grid>
+                </DockPanel>
+            </GroupBox>
+        </DockPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,4 @@
+﻿<tr class="celltr">
+                 <td class="align-center">$(No)</td><td>${ColumnName}</td><td>${ColumnCode}</td>
+                 <td>${ColumnType}</td><td>${ColumnWidth}</td><td>${DecimalPlace}</td><td>${PrimaryKey}</td><td>${Rule}</td><td>${DefaultValue}</td><td>${Remark}</td><td>${ChangeType}</td>
+</tr>

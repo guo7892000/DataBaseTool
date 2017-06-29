@@ -1,0 +1,7 @@
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.IDAC.dll
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.IDAC.pdb
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.IDAC\obj\Debug\Breezee.WorkHelper.DBTool.IDAC.dll
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.IDAC\obj\Debug\Breezee.WorkHelper.DBTool.IDAC.pdb
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.DBTool.IDAC.dll
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.DBTool.IDAC.pdb
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.IDAC\obj\Debug\Breezee.WorkHelper.DBTool.IDAC.csprojResolveAssemblyReference.cache

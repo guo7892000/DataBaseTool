@@ -1,0 +1,5 @@
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.Core.dll
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.Core.pdb
+E:\个人项目代码\10_WorkHelper\Global\Breezee.WorkHelper.Core\obj\Debug\Breezee.WorkHelper.Core.dll
+E:\个人项目代码\10_WorkHelper\Global\Breezee.WorkHelper.Core\obj\Debug\Breezee.WorkHelper.Core.pdb
+E:\个人项目代码\10_WorkHelper\Global\Breezee.WorkHelper.Core\obj\Debug\Breezee.WorkHelper.Core.csprojResolveAssemblyReference.cache

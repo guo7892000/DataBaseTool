@@ -1,0 +1,5 @@
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.DAC.SqlServer.dll
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.DAC.SqlServer.pdb
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.DAC.SqlServer\obj\Debug\Breezee.WorkHelper.DBTool.DAC.SqlServer.csprojResolveAssemblyReference.cache
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.DAC.SqlServer\obj\Debug\Breezee.WorkHelper.DBTool.DAC.SqlServer.dll
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.DAC.SqlServer\obj\Debug\Breezee.WorkHelper.DBTool.DAC.SqlServer.pdb

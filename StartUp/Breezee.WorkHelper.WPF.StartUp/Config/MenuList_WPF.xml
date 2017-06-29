@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<xml>
+  <!--模块1-->
+  <Model Guid="60B405BD-3786-4CD0-9081-FC4D8D1EA50A" Name ="WPF控件测试" Code="" ShortCutKey="E">
+    <!--菜单分类1.1-->
+    <Class Guid="BF0AC43A-4843-4975-BD35-4FE5EB2F12B2" Name ="控件测试" Code="" ShortCutKey="B">
+      <!--菜单-->
+      <Menu Guid="1E5C56D7-43ED-46AD-A3BD-9529A3C0FA88" Name ="控件测试1" Code="" ShortCutKey="" 
+            DLLName="Breezee.WorkHelper.WPF.StartUp.exe" FormName="Breezee.WorkHelper.WPF.StartUp.WPF_UC_Test1"/>
+      <Menu Guid="A6B5D0BE-4292-43AB-AC9E-607393E571D6" Name ="控件测试2" Code="" ShortCutKey=""
+              DLLName="Breezee.WorkHelper.WPF.StartUp.exe" FormName="Breezee.WorkHelper.WPF.StartUp.WPF_UC_Test2"/>
+    </Class>
+    <!--菜单分类1.2-->
+    <Class Guid="9E9EC065-92FA-491F-AA73-2C640BCD204D" Name ="WPF窗体测试" Code="M_EMP_SAR" ShortCutKey="">
+      <!--菜单-->
+      <Menu Guid="686600FD-67DD-436E-86B6-A3D7C320CB1D" Name ="窗体测试1" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.WPF.StartUp.exe" FormName="Breezee.WorkHelper.WPF.StartUp.WPFWindowTest1"/>
+      <Menu Guid="ECB3A8CA-BF9B-4377-B3C2-78F5B95EDED3" Name ="窗体测试2" Code="" ShortCutKey=""
+              DLLName="Breezee.WorkHelper.WPF.StartUp.exe" FormName="Breezee.WorkHelper.WPF.StartUp.WPFWindowTest2"/>
+    </Class>   
+  </Model>  
+  <!--模块3-->
+  <Model Guid="AB144BDF-9C3E-4520-B874-53FE043A64E7" Name ="测试管理" Code="MODEL_TEST" ShortCutKey="E">
+    <!--菜单分类1.3-->
+    <Class Guid="8230AB17-B603-40A4-9EA4-0DEC220A17D4" Name ="开发测试" Code="M_TEST_DEV" ShortCutKey="">
+      <!--菜单-->
+      <!--<Menu Guid="86F1DAC0-C343-42FD-88B1-2EE71B644F67" Name ="SQLite测试" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHepler.SQLiteTest.UI.dll" FormName="Breezee.WorkHepler.SQLiteTest.UI.FrmSQLiteTest"/>-->
+    </Class>
+  </Model>
+</xml>  

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<xml>
+  <!--模块1-->
+  <Model Guid="2DAA784F-6853-4198-B9D6-F92CBFE01864" Name ="职工管理" Code="MODEL_EMP" ShortCutKey="E">
+    <!--菜单分类1.1-->
+    <Class Guid="090654A1-BE6E-4AFE-8284-1ED85AD8EB6D" Name ="基础数据" Code="" ShortCutKey="B">
+      <!--菜单-->
+      <Menu Guid="9860194D-8DF5-4E21-8550-27CA313D983E" Name ="工作时间设置" Code="" ShortCutKey="" 
+            DLLName="Breezee.WorkHelper.SimpleSalary.UI.dll" FormName="Breezee.WorkHelper.SimpleSalary.UI.Base.FrmSSWorkDateSet"/>
+      <Menu Guid="D4FB4B06-F6AA-4F77-AF27-FC406F6B3075" Name ="员工级别设置" Code="" ShortCutKey=""
+              DLLName="Breezee.WorkHelper.SimpleSalary.UI.dll" FormName="Breezee.WorkHelper.SimpleSalary.UI.Base.FrmSSEmplyeeLevelSet"/>
+      <Menu Guid="84B0973A-F9C5-4360-B75B-07C7659E374F" Name ="员工维护" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.SimpleSalary.UI.dll" FormName="Breezee.WorkHelper.SimpleSalary.UI.Base.FrmSSEmplyeeSet"/>
+      <Menu Guid="F8E937A2-20D0-4EBE-9150-5753A69043CC" Name ="提成参数设置" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.SimpleSalary.UI.dll" FormName="Breezee.WorkHelper.SimpleSalary.UI.Base.FrmSSSalesCommissionSet"/>
+    </Class>
+    <!--菜单分类1.2-->
+    <Class Guid="3F6A006E-8DF7-4A47-B8FE-B5A39DF01C5A" Name ="工资管理" Code="M_EMP_SAR" ShortCutKey="">
+      <!--菜单-->
+      <Menu Guid="435127F9-B64A-4067-BC50-8566DA60BA04" Name ="工资计算" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.SimpleSalary.UI.dll" FormName="Breezee.WorkHelper.SimpleSalary.UI.Salary.FrmSSSalaryRegister"/>
+    </Class>   
+  </Model>  
+  <!--模块2-->  
+  <Model Guid="R1150CDC-502C-40F7-9D0C-90CE7CCA66BA" Name ="数据库工具" Code="MODEL_DB_TOOL" ShortCutKey="T">
+    <!--菜单分类1.3-->
+    <Class Guid="TD73F5C5-5E16-4B59-B468-070D16956F80" Name ="表SQL生成" Code="M_DB_TOOL_TABLE_STRUCT" ShortCutKey="">
+      <!--菜单-->
+      <Menu Guid="KUF1DAC0-C343-42FD-88B1-2EE71B6674F67" Name ="Excel导入生成表结构" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTImportExcelGenerateTableSQL"/>
+      
+      <Menu Guid="629E907C-7790-4897-9126-37E43CE5F80A" Name ="获取Oracle增删改查SQL" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTGetOracleSql"/>
+      
+      <Menu Guid="0E9E2C05-2F20-45F1-9CCD-007AA24E5B91" Name ="获取SqlServer增删改查SQL" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTGetSqlServerSql"/>
+      
+      <Menu Guid="0DF72AF9-7BF1-44E0-B68C-A209572C5B90" Name ="表列备注SQL" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTTableExtendProperty"/>
+    </Class> 
+    <Class Guid="FF32364F-3832-48F7-8B32-B473DC48401D" Name ="字符拼接" Code="M_DB_TOOL_STR_CONN" ShortCutKey="">
+      <!--菜单-->
+      <Menu Guid="3252D790-C9AD-47F2-8B56-F690D0F6BBE1" Name ="复制数据拼接" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTCopyData"/>
+      <Menu Guid="57C49904-07F5-41C7-AE6A-86915CEFD282" Name ="IN清单拼接" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTInList"/>
+      <Menu Guid="05AF975A-6814-4538-953E-CE4F2E294172" Name ="数据库数据拼接" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTReadDataBaseString"/>
+    </Class>  
+    <Class Guid="A72D3A5E-F499-468C-884A-B506004A459D" Name ="数据SQL生成" Code="M_DB_TOOL_DATA_SQL" ShortCutKey="">
+      <!--菜单-->
+      <Menu Guid="62718AB5-E92B-4E1B-BA35-4FBB707F7192" Name ="Excel导入生成" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTExcelImportData"/>
+      <Menu Guid="15D2AFDD-BFC7-4759-BB1C-EE2D052B7DA4" Name ="Oracle数据库生成" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTReadOracleDBData"/>
+      <Menu Guid="68E159DA-4239-4183-A9B0-677C511E053C" Name ="SqlServer数据库生成" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHelper.DBTool.UI.dll" FormName="Breezee.WorkHelper.DBTool.UI.FrmDBTReadSqlServerDBData"/>
+    </Class>
+  </Model>  
+  <!--模块3-->
+  <Model Guid="31150CDC-502C-40F7-9D0C-90CE7CCA66BF" Name ="测试管理" Code="MODEL_TEST" ShortCutKey="E">
+    <!--菜单分类1.3-->
+    <Class Guid="3D73F5C5-DE16-4B59-B468-070D16956F80" Name ="开发测试" Code="M_TEST_DEV" ShortCutKey="">
+      <!--菜单-->
+      <Menu Guid="86F1DAC0-C343-42FD-88B1-2EE71B644F67" Name ="SQLite测试" Code="" ShortCutKey=""
+            DLLName="Breezee.WorkHepler.SQLiteTest.UI.dll" FormName="Breezee.WorkHepler.SQLiteTest.UI.FrmSQLiteTest"/>
+    </Class>
+  </Model>
+</xml>  

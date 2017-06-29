@@ -1,0 +1,6 @@
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.Entity.dll
+E:\个人项目代码\Release\Breezee.WorkHelper.DBTool.Entity.pdb
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.Entity\obj\Debug\Breezee.WorkHelper.DBTool.Entity.dll
+E:\个人项目代码\10_WorkHelper\DBTool\Breezee.WorkHelper.DBTool.Entity\obj\Debug\Breezee.WorkHelper.DBTool.Entity.pdb
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.DBTool.Entity.dll
+E:\个人项目代码\10_WorkHelper\Release\Breezee.WorkHelper.DBTool.Entity.pdb
